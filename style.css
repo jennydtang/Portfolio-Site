@@ -1,0 +1,142 @@
+#mainnavbar{
+    background-color: lightblue;
+}
+
+#intro-picture {
+	width: 100%;
+	height: 115%;
+	margin-top: 0px;
+}
+/* Animation */
+.fade-in {
+	-webkit-animation: fade-in 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+/* body */
+body {
+	background-color: white;
+}
+.headings {
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px 5px lightblue;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 60px;
+    }
+
+.aboutMe { 
+     padding: 1%;
+     margin-top: 10px;
+}
+.pink {
+    background-color: #eeafa3;
+    padding: 1%;
+    margin-top: 10px;
+}
+
+.portfolioHead {
+    background-color: rgba(255, 224, 157, 0.927);
+     padding: 1%;
+     margin-top: 10px;
+}
+    
+.skills-picture {
+    margin-top: 10px;
+    text-align: center;
+
+}
+.text {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 85%;
+    text-align: center;
+    color: darkslategrey;
+}
+.container {
+    margin-top: 30px;
+}
+
+.projects {
+    padding: 10%;
+}
+.row {
+    text-align: center;
+}
+/* footer */
+.container1 {
+    background-color: #cec9c9;
+    width: 100%;
+    padding: 5%;
+    color: darkslategrey;
+
+}
+.footer-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    text-decoration: none;
+    display: inline;
+}
+.footer-list a {
+    color: darkslategrey;
+}
+.footer-list a:hover {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+/* .container-fluid {
+	display: flex;
+    justify-content: center; */
+/* }
+ footer {
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #b9b0b0;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	padding-top:10px;
+	padding-bottom: 10px;
+} */ 
+/* footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+	color:#fff;
+	vertical-align: middle;
+} */
