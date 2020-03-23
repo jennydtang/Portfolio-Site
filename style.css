@@ -1,16 +1,12 @@
-#mainnavbar{
-    background-color: lightblue;
-}
-
 #intro-picture {
 	width: 100%;
-	height: 115%;
-	margin-top: 0px;
+	height: 100%;
+	margin-top: -1px;
 }
 /* Animation */
 .fade-in {
-	-webkit-animation: fade-in 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	-webkit-animation: fade-in 8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
  @-webkit-keyframes fade-in {
@@ -110,33 +106,3 @@ body {
     color: white;
     text-decoration: none;
 }
-/* .container-fluid {
-	display: flex;
-    justify-content: center; */
-/* }
- footer {
-	font-family: Arial;
-	font-size: 18px;
-	background-color: #b9b0b0;
-	position: absolute;
-	width: 100%;
-	height: auto;
-	padding-top:10px;
-	padding-bottom: 10px;
-} */ 
-/* footer ul li {
-	display: inline-block;
-	list-style: none;
-	float: right;
-	
-}
-
-footer p {
-	float: left;
-}
-
-footer a,
-footer p {
-	color:#fff;
-	vertical-align: middle;
-} */
